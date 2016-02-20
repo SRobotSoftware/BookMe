@@ -2,10 +2,10 @@
   'use strict';
 
   angular
-    .module('data')
+    .module('data', [])
     .factory('DataService', function ($http) {
 
-      debugger;
+      return {};
 
     });
 
